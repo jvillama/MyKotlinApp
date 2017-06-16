@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 25
@@ -30,4 +31,8 @@ dependencies {
     implementation 'com.android.support:design:25.4.0'
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    // add the Mapbox SDK dependency below
+    implementation('com.mapbox.mapboxsdk:mapbox-android-sdk:5.0.2@aar'){
+        transitive true
+    }
 }

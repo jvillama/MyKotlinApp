@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Kotlin Application</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Exit</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoicmZiaWxsaW5nIiwiYSI6ImNqM3ppN2dmYzAzbXczMnFybzlvNWZscHMifQ.bg7Jd5_d7ACx4-udfghlew</string>
 </resources>
